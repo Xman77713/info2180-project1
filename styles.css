@@ -9,3 +9,54 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+header .container{
+	display: grid;
+	grid-template-columns: 49% 49%;
+	column-gap: 2%;
+	text-align: center;
+	border: 1px solid black;
+	align-content: center;
+}
+
+h1 {
+	border: 1px solid black;
+	margin: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	display: grid;
+	padding: 0;
+	grid-template-columns: 19% 18% 18% 18% 19%;
+	column-gap: 2%;
+	border: 1px solid black;
+	text-align: center;
+}
+
+li {
+	border: 1px solid black;
+}
+
+/*header .container {
+	display: grid;
+	grid-template-columns: 34% 44%;
+	grid-gap: 20%;
+}
+
+.container h1 {
+	
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 24% 23% 23% 23% 24%;
+	grid-gap: 2%;
+}
+
+nav ul li {
+	
+}*/
